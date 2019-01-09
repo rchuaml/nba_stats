@@ -1,9 +1,6 @@
-//mvp
 SELECT * FROM players WHERE team = 'NYK';
 SELECT * FROM players WHERE team = 'IND' and age < 26;
 SELECT * FROM players ORDER BY points ASC;
-
-//further
 SELECT * FROM players WHERE team = 'NYK' and points >1000;
 SELECT * FROM players WHERE team = 'CHI' and points <300;
 SELECT team FROM players WHERE points < 2;
